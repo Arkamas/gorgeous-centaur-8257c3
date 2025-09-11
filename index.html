@@ -1092,11 +1092,18 @@
             document.getElementById('result-display').style.display = 'block';
             document.getElementById('result-display').scrollIntoView({ behavior: 'smooth' });
         }
-        // Page Navigation
-        function showImpressum() {
-            document.querySelector('body > *:not(#impressum-page):not(#datenschutz-page)').style.display = 'none';
-            document.getElementById('impressum-page').style.display = 'block';
-            window.scrollTo(0, 0);
+        <footer class="footer">
+  <div class="footer-content">
+    <div class="footer-links">
+      <a href="cool-stroopwafel-79e3f5.netlify.app" target="_blank" rel="noopener noreferrer">Impressum</a>
+      <a href="stately-valkyrie-983f32.netlify.app" target="_blank" rel="noopener noreferrer">Datenschutz</a>
+    </div>
+    <div class="copyright">
+      © 2025 Völzke Consulting GmbH. Alle Rechte vorbehalten.
+    </div>
+  </div>
+</footer>
+
         }
         function showDatenschutz() {
             document.querySelector('body > *:not(#impressum-page):not(#datenschutz-page)').style.display = 'none';
